@@ -87,6 +87,35 @@ button {
     cursor: pointer;
 }
 
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.gallery-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 52px;
+}
+
+
+
+
+
+
+
+
+
 button.call-to-action {
     border: solid white 1px; 
 }
