@@ -163,9 +163,37 @@ button {
     font-size: 24px;
 }
 
-
 button.call-to-action {
-    border: solid white 1px; 
+    border: solid white 3px; 
+}
+
+.call-to-action-container  {
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+}
+
+.call-to-action-info {
+    background-color: #3882F6;
+    display: flex;
+    padding-right: 64px;
+    padding-left: 64px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 32px;
+    align-items: center;
+    border-radius: 8px;
+    color: white; 
+}
+
+
+.call-to-action-prompt-header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.call-to-action-prompt-text {
+    font-size: 12px;
 }
 
 .footer {
